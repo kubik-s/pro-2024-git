@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task 2</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        section{
+            height: 100vh;
+            flex-direction: column;
+            display: flex;
+            text-align: center;
+
+
+        }
+
+        #blue{
+            background-color: cadetblue;
+        }
+        #green{
+            background-color: lightgreen;
+        }
+        #coral{
+            background-color: coral;
+        }
+        .head{
+            padding-top: 20vh;
+            font-size: 80px;
+        }
+
+        .arrow-down, .arrow-up{
+            font-size:60px;
+        }
+        a{
+            color: black;
+            display: flex;
+            text-decoration: none;
+            justify-content: center;
+
+        }
+        .text{
+            padding-top: 5vh;
+            padding-bottom: 15vh;
+            font-size:40px ;
+
+        }
+
+    </style>
+</head>
+
+
+
+<body>
+
+<section id="coral">
+
+    <div class="head">
+     <span>Lorem ipsum</span>
+    </div>
+
+    <div class="text">
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam finibus ante vel feugiat fermentum. Fusce ornare arcu felis. Cras imperdiet metus ut purus aliquet congue. Donec facilisis eros sit amet ante imperdiet vestibulum ut consectetur urna. Quisque vel tincidunt est.</span>
+    </div>
+
+    <div class="arrow-down">
+        <a href="#blue">&#8595</a></div>
+</section>
+
+
+<section id="blue">
+
+    <div class="arrow-up">
+    <a href="#coral">&#8593</a>
+    </div>
+
+    <div class="head">
+        <span>Lorem ipsum </span>
+    </div>
+
+    <div class="text">
+    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam finibus ante vel feugiat fermentum. Fusce ornare arcu felis. Cras imperdiet metus ut purus aliquet congue. Donec facilisis eros sit amet ante imperdiet vestibulum ut consectetur urna. Quisque vel tincidunt est.</span>
+    </div>
+
+    <div class="arrow-down">
+    <a href="#green">&#8595</a>
+    </div>
+</section>
+
+<section id="green">
+    <div class="arrow-up">
+        <a href="#blue">&#8593</a>
+        </div>
+
+        <div class="head">
+            <span>Lorem ipsum</span>
+        </div>
+
+    <div class="text">
+        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam finibus ante vel feugiat fermentum. Fusce ornare arcu felis. Cras imperdiet metus ut purus aliquet congue. Donec facilisis eros sit amet ante imperdiet vestibulum ut consectetur urna. Quisque vel tincidunt est.</span>
+    </div>
+</section>
+
+</body>
+</html>
