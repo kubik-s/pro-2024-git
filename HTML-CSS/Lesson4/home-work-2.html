@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>завдання 2</title>
+    <style>
+        body{
+            margin: 0;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        form{
+            width: 23vw;
+            height: 70vh;
+            background: white;
+            border: 1px solid #BDBDBD;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+       .register{
+           width:20vw;
+           height: 55vh;
+           margin: 0.5vh;
+           border: 2px solid #BDBDBD;
+           display: flex;
+           align-content: center;
+           flex-direction: column;
+
+       }
+       .help{
+           width: 20vw;
+           height: 6vh;
+           border: 2px solid #BDBDBD;
+           display: flex;
+           float: left;
+           justify-content:center;
+           align-items: center;
+
+
+       }
+       img{
+           width: 60%;
+           height: 25%;
+       }
+       input{
+           width:200px;
+           height: 25px;
+           border-radius: 3px;
+           text-overflow: ellipsis;
+       }
+       .facebook{
+           width:5vw ;
+           height:20vh;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+       }
+
+
+       div{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+
+
+
+
+       }
+       .submit{
+           height: 25px;
+           width:200px ;
+           background: steelblue;
+           border-radius: 5px;
+           border: none;
+
+       }
+       label{
+           margin-bottom: 8px;
+       }
+
+
+
+
+
+
+
+
+    </style>
+
+
+</head>
+<body>
+<form>
+    <div class="register">
+
+        <img src="img-inst.jpg" alt="instagram">
+
+        <label>
+        <input type="text" placeholder="Номер телефону,ім'я користувача або електронна адреса">
+        </label>
+
+
+
+        <label>
+            <input class="password" placeholder="Пароль">
+        </label>
+
+        <input class="submit" type="submit" value="Увійти" style="color: white" >
+
+        <p>АБО</p>
+        <div>
+
+        <div class="facebook">
+        <img src="img-facebook.png" alt="facebook"> </div> <p style="color:steelblue " >Увійти через Facebook</p>
+        </div>
+       <a style="color: steelblue" href="#"> Забули пароль?</a>
+    </div>
+
+
+    <div class="help">
+        <span>Немаєте облікового запису? </span> <a style="color: steelblue" href="#">Зареєструйтеся </a>
+    </div>
+
+
+</form>
+</body>
+</html>
