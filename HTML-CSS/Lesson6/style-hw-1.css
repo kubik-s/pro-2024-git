@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+
+}
+header{
+    width: 100vw;
+    height: 20vh;
+    background: #072516;
+    border: 3px solid black;
+}
+main{
+    width: 75vw;
+    height: 80vh;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+
+
+}
+nav{
+    width: 75vw;
+    height: 40vh;
+    background: #65856E;
+    border: 3px solid black;
+}
+.card{
+    width: 25vw;
+    height:40vh;
+    background: #3d3838;
+    border: 3px solid black;
+}
+article{
+    display: flex;
+    border: 3px solid black;
+}
+section{
+    width: 25vw;
+    height: 80vh;
+    background: darkgoldenrod;
+    border: 3px solid black;
+}
+.block{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+}
+
+p::after{
+    content: "desktop";
+}
