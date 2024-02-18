@@ -1,9 +1,5 @@
-@media screen and(min-width: 300px) and(max-width: 500px) {
-    p::after {
-        content: "mobile";
-    }
 
-
+@media screen and (min-width: 300px) and (max-width: 500px){
     header {
         width: 100vw;
         height: 15vh;
@@ -24,5 +20,12 @@
         height: 85vh;
         flex-wrap: wrap;
     }
-
+    nav{
+        width: 100vw;
+        height: 50vh;
+    }
+.card{
+    width: 33vw;
+    height: 20vh;
+}
 }
